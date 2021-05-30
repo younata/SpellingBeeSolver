@@ -1,5 +1,7 @@
 # SpellingBeeSolver
 
+[![Latest Version](https://img.shields.io/crates/v/spelling_bee_solver.svg)](https://crates.io/crates/spelling_bee_solver)
+
 Simple CLI written in rust to generate solutions to the [NYT Spelling Bee puzzles](https://www.nytimes.com/puzzles/spelling-bee).
 
 Defaults to using the built-in word dictionary, which is much more expansive than the dictionary the NYT uses. That is, this will generate a bunch of solutions that aren't recognized as valid. Similarly, there might be words that NYT is aware of that the words dictionary can't find.
